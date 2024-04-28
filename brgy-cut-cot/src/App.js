@@ -19,6 +19,7 @@ const App = () => {
   return (
     <div>
       <Router>
+            <Header />
             <Navbar />
             <Routes>
                 <Route exact path="/home" element={<Home />} />
