@@ -8,20 +8,48 @@ body {
   font-family: sans-serif;
 }
 
-header {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  color: #212529;
+.App-logo {
+  height: 12vmin;
+  width: 12vmin;
+  pointer-events: none;
+  
+}
+
+.App-header {
+  background-image: linear-gradient(to right, #ef8a1c , #eae934);
+  height: 17vh;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  position:fixed;
+  width: 100%;
+  align-items: center;
+
+}
+
+.title {
+  font-size: calc(15px + 1vmin);
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-align: center;
+
 }
 
 .nav-area {
   display: flex;
-  align-items: center;
+  align-items:first baseline;
   width: 100%;
   margin: 0 auto;
   padding: 10px 20px;
   padding-right: 150px;
   justify-content: right;
   background-color: #eae934;
+  position: absolute;
+  margin-top: 120px;
+  border-top-style:groove;
+  opacity: 90%;
 }
 
 .logo {
