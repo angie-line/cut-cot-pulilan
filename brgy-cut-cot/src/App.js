@@ -1,7 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header';
+import Navbar from './components/navbar';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from "./pages/home";
+import Officials1 from "./pages/officials1";
+import Officials2 from "./pages/officials2";
+import Officials3 from "./pages/officials3";
+import Officials4 from "./pages/officials4";
+import Officials5 from "./pages/officials5";
+import Officials6 from "./pages/officials6";
+import Officials7 from "./pages/officials7";
+import Profile from "./pages/profile";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Router>
