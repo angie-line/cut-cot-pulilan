@@ -24,25 +24,25 @@ const App = () => {
                 <Route exact path="/home" element={<Home />} />
             </Routes>
             <Routes>
-                <Route path="/services/sangguniang-barangay" element={<Officials1 />} />
+                <Route path="/officials-and-volunteers/sangguniang-barangay" element={<Officials1 />} />
             </Routes>
             <Routes>
-                <Route path="/services/sangguniang-kabataan" element={<Officials2 />} />
+                <Route path="/officials-and-volunteers/sangguniang-kabataan" element={<Officials2 />} />
             </Routes>
             <Routes>
-                <Route path="/services/barangay-health-workers" element={<Officials3 />} />
+                <Route path="/officials-and-volunteers/barangay-health-workers" element={<Officials3 />} />
             </Routes>
             <Routes>
-                <Route path="/services/lupon-tagapayapa-members" element={<Officials4 />} />
+                <Route path="/officials-and-volunteers/lupon-tagapayapa-members" element={<Officials4 />} />
             </Routes>
             <Routes>
-                <Route path="/services/barangay-lln-population-volunteer-and-mother-leaders" element={<Officials5 />} />
+                <Route path="/officials-and-volunteers/barangay-lln-population-volunteer-and-mother-leaders" element={<Officials5 />} />
             </Routes>
             <Routes>
-                <Route path="/services/barangay-peace-keeping-action-team" element={<Officials6 />} />
+                <Route path="/officials-and-volunteers/barangay-peace-keeping-action-team" element={<Officials6 />} />
             </Routes>
             <Routes>
-                <Route path="/services/association-presidents-cdt-service-patrol-operator-garbage-collector-kasambahay-desk-office-and-utility-worker" element={<Officials7 />} />
+                <Route path="/officials-and-volunteers/association-presidents-cdt-service-patrol-operator-garbage-collector-kasambahay-desk-office-and-utility-worker" element={<Officials7 />} />
             </Routes>
             <Routes>
                 <Route path="/demographic-profile" element={<Profile />} />
